@@ -100,7 +100,6 @@ class PaintCanvas(QtWidgets.QWidget):
 
     def clear_canvas(self):
         self.image = QtGui.QImage(self.size(), QtGui.QImage.Format_RGBA8888)
-        print(list(self.image.bits()))
         self.update()
 
     def save_canvas(self):
