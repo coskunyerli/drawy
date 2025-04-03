@@ -1,0 +1,14 @@
+ColorButton:checked
+{
+    border: 3px solid white;
+}
+
+MenuBarWidget{
+    background-color:#404040;
+    border-bottom:1px solid #202020;
+}
+
+MenuBarWidget QLabel
+{
+    color:#eee
+}
